@@ -28,7 +28,7 @@ This document provides comprehensive guidelines for an AI assistant working on a
 
 ### Quick Reference - Short Codes
 #### Context & Planning Workflow (Core Pattern)
--   `j` - Create context issue and compact the conversation.
+-   `ccc` - Create context issue and compact the conversation.
 -   `nnn` - Smart planning: Auto-runs `ccc` if no recent context → Create a detailed implementation plan.
 -   `gogogo` - Execute the most recent plan issue step-by-step.
 
@@ -454,6 +454,9 @@ fd "[pattern]"
 - What: [specific changes]
 - Why: [motivation]
 - Impact: [affected areas]
+### Commit Best Practices
+- Write Clear Commit Messages – Use short, descriptive messages that explain what was changed and why. Avoid vague messages like “update” or “fix”. A good commit message makes the project history easy to understand.
+- Commit Frequently – Every time you make a significant change (e.g., adding a feature, refactoring code, fixing a bug, or updating the schema), commit immediately. Don’t wait until everything is finished. Smaller commits create a cleaner history, make debugging easier, and allow you to roll back safely.
 
 Closes #[issue-number]
 ```
