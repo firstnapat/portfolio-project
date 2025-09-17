@@ -28,7 +28,7 @@ This document provides comprehensive guidelines for an AI assistant working on a
 
 ### Quick Reference - Short Codes
 #### Context & Planning Workflow (Core Pattern)
--   `ccc` - Create context issue and compact the conversation.
+-   `j` - Create context issue and compact the conversation.
 -   `nnn` - Smart planning: Auto-runs `ccc` if no recent context → Create a detailed implementation plan.
 -   `gogogo` - Execute the most recent plan issue step-by-step.
 
